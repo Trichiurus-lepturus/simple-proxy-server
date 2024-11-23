@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="simple-proxy-server">
+    <output-path>$PROJECT_DIR$/out/artifacts/simple_proxy_server</output-path>
+    <root id="archive" name="simple-proxy-server.jar">
+      <element id="module-output" name="simple-proxy-server" />
+    </root>
+  </artifact>
+</component>
