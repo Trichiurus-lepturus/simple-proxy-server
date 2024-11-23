@@ -73,7 +73,7 @@ public class SimpleProxyServer implements Runnable {
                 try (Socket socket = new Socket(inetPortPair.getInetAddress(), inetPortPair.getPort());
                      OutputStream serverOutputStream = socket.getOutputStream();
                      InputStream serverInputStream = socket.getInputStream()) {
-                    System.out.println("Sending request to server" + inetPortPair.getInetAddress()
+                    System.out.println("Sending request to server " + inetPortPair.getInetAddress()
                             + ":" + inetPortPair.getPort() + "...");
                     System.out.println(new String(requestBytes, StandardCharsets.UTF_8));
                     serverOutputStream.write(requestBytes);
